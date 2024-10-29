@@ -26,7 +26,7 @@ Using machine learning models, the system continuously monitors equipment health
 
 ## System Architecture
 
-![Architecture](https://github.com/user-attachments/assets/3588f051-a9c8-4a77-bc30-70f844b8c9a2)
+![Architecture](/Decentralized-Predictive-Maintenance/img/architecture-diagram.png)
 
 ## Output
 #### Output1 - Home Page
