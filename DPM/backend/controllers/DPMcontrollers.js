@@ -5,7 +5,7 @@ const CNC = require('../models/DPMmodel')
 // Connect to Ethereum network
 const web3 = new Web3(process.env.INFURA_SEPOLIA_URL);
 
-const FLASK_API_URL = "https://decentralized-predictive-maintenance-1.onrender.com";
+const FLASK_API_URL = "https://decentralized-predictive-maintenance-1.onrender.com/predictAndLog";
 console.log(FLASK_API_URL);
 const contractData = require("../contract.json");
 const { error } = require("console");
