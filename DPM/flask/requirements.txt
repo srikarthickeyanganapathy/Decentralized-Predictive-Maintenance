@@ -1,4 +1,6 @@
-pip install flask
-pip install joblib
-pip install flask_cors
-pip install numpy
+Flask==2.2.5
+Flask-Cors==3.0.10
+gunicorn==21.2.0
+numpy==1.24.2
+scikit-learn==1.3.0
+pandas==2.1.0

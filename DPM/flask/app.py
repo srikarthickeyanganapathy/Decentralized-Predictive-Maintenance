@@ -8,6 +8,10 @@ CORS(app)
 # Load your trained model
 model = joblib.load("model.pkl")
 
+@app.route('/')
+def home():
+    return "Flask server is running!"
+
 @app.route("/predictAndLog", methods=["POST"])
 def predict():
     try:
