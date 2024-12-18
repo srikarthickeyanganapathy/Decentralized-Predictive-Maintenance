@@ -10,7 +10,7 @@ const Web = () => {
 
   const predictAndLog = async () => {
     try {
-      const response = await axios.post("http://localhost:3000/api/v3/predictAndLog", {
+      const response = await axios.post("https://decentralized-predictive-maintenance.onrender.com/api/v3/predictAndLog", {
         machineId,
         features: { temperature, vibration, load },
       });
