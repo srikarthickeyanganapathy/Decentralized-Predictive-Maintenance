@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
-import joblib
-import numpy as np
-from flask_cors import CORS
+pip install flask
+pip install joblib
+pip install flask_cors
+pip install numpy
